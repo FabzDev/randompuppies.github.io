@@ -36,7 +36,7 @@ body {
 
 .upload-boton {
 	height: 40px;
-	width: 150px;
+	width: auto;
 	border: 2px gray solid;
 	border-radius: 5px;
 	background-color: gray;
@@ -44,6 +44,7 @@ body {
 	color: white;
 	font-family: "Courier New", Courier, monospace;
 	font-size: 18px;
+	padding: 0 10px;
 }
 
 h1,

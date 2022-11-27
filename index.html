@@ -9,14 +9,12 @@
 	</head>
 	<body>
 		<section class="grida">
-			<div class="h1-container">
-				<h1>Perritos puppies</h1>
-			</div>
+			<h1>Random Puppies</h1>
 			<div id="content2" class="imgs-container">
 				<!-- content -->
 			</div>
 			<div class="btn-container">
-				<button id="btn" class="boton">Random Puppies</button>
+				<button id="btn" class="boton">More random Puppies</button>
 			</div>
 
 			<div class="favorites">
@@ -24,6 +22,18 @@
 				<div id="content" class="fav-img-container">
 					<!-- content -->
 				</div>
+			</div>
+
+			<div class="upload-photo">
+				<h3>Upload your Puppie</h3>
+				<form id="puppyForm">
+					<div class="preview">
+						<img id="file-ip-1-preview" />
+					</div>
+					<label class="puppyForm-label" for="puppyForm-input">Select your Puppy Image</label>
+					<input id="puppyForm-input" type="file" name="file" accept="image/*" onchange="showPreview(event)" />
+					<button type="button" class="upload-boton" id="puppyForm-btn" onclick="uploadPuppy()">Upload Puppy!</button>
+				</form>
 			</div>
 		</section>
 

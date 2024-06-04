@@ -1,4 +1,7 @@
-# Random Puppies
+# Random Puppies 🐩
+![FatdogFunnydogGIF](https://github.com/FabzDev/randompuppies.github.io/assets/107362565/dcc71f39-a270-49bf-bc5d-afa7bcd1be12)
+
+
 
 Welcome to Random Puppies! This is a web application that allows you to view random puppy images and save them to a favorites section.
 
